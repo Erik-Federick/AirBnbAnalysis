@@ -1,85 +1,79 @@
-# AirBnbAnalysis
+## **Capstone Project Summary**
+___
 
-Summary : 
+**Stakeholder**
+Stakeholder: 
+The identified stakeholder is the Marketing Team.
+___
+## **Background**
 
-Airbnb Insights Properti Bangkok memberikan analisis komprehensif terhadap data listing properti Airbnb di Bangkok. Dengan fokus pada distribusi wilayah, jenis kamar, harga, dan ulasan, analisis ini membuka wawasan penting bagi pemilik properti dan pemangku kepentingan dalam industri perhotelan di kota tersebut. Temuan utama mencakup dominasi "Entire home/apt" sebagai tipe kamar paling diminati, dengan South Bangkok sebagai wilayah dengan listing terbanyak. Central Bangkok memimpin dalam harga properti, khususnya untuk "Entire home/apt" dan "Hotel room." Analisis juga mencermati tren ulasan dan memberikan rekomendasi strategis untuk meningkatkan daya tarik properti berdasarkan karakteristik wilayah dan preferensi penyewa.
+Airbnb Bangkok Property Insights provides a comprehensive analysis of Airbnb property listing data in Bangkok. With a focus on regional distribution, room types, prices, and reviews, the analysis provides important insights for property owners and stakeholders in the city's hospitality industry. Key findings include the dominance of "Entire home/apt" as the most desirable room type, with South Bangkok as the region with the most listings. Central Bangkok leads in property prices, particularly for "Entire home/apt" and "Hotel room." The analysis also looks at review trends and provides strategic recommendations to increase property appeal based on regional characteristics and tenant preferences..
+___
+Data Cleaning :
+    1. Convert object into datetime
+    2. Outlier Checking
+    3. fill in the missing column name,last_review,reviews_per_month 
+    4. Check Data Distribution    
+___
 
-Link Dataset: https://drive.google.com/drive/folders/1A_KBMRFTS5Mthpp46nulso679ML4ZwTF
+## **Pernyataan Masalah** 
+1. Characteristics of Airbnb Properties in Each Region:
+    - How do the key characteristics of Airbnb properties vary in Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, and South Thonburi?
+    - Are there specific preferences or trends in facilities or property types in each region?
 
-Pernyataan Masalah :
-1. Karakteristik Properti Airbnb di Setiap Wilayah:
-    -  Bagaimana karakteristik utama properti Airbnb bervariasi di wilayah Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, dan South Thonburi?
-    - Apakah terdapat preferensi khusus atau tren tertentu dalam fasilitas atau tipe properti di setiap wilayah?
+2. Most Demanded Property Types:
+    - What property type (Entire home/apt, Private room, Hotel room, Shared room) is most favored by Airbnb renters in Bangkok?
+    - Are there significant differences in demand for specific property types across various regions?
 
-2. Tipe Properti yang Paling Diminati:
-    - Apa tipe properti (Entire home/apt, Private room, Hotel room, Shared room) yang paling diminati oleh penyewa Airbnb di Bangkok?
-    - Adakah perbedaan signifikan dalam permintaan untuk tipe properti tertentu di berbagai wilayah?
-
-3. Perbedaan Harga Properti di Berbagai Wilayah:
-    - Bagaimana perbedaan harga properti Airbnb di wilayah Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, dan South Thonburi?
-    - Apakah terdapat faktor tertentu yang secara signifikan mempengaruhi harga properti di setiap wilayah?
+3. Property Price Differences Across Regions:
+    - How do Airbnb property prices differ in Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, and South Thonburi?
+    - Are there specific factors significantly influencing property prices in each region?
   
-## Goals
+## **Goals**
 
-1. Mengidentifikasi Karakteristik Utama Properti:
-    - Menentukan karakteristik utama properti Airbnb yang paling dominan di masing-masing wilayah di Bangkok.
-    - Menganalisis fasilitas dan fitur properti yang paling diunggulkan oleh pemilik dan diminati oleh penyewa di setiap wilayah.
+1. Identifying Key Property Characteristics:
+    - Determining the dominant key characteristics of Airbnb properties in each region of Bangkok.
+    - Analyzing the facilities and features that property owners emphasize and renters seek in each area.
 
-2. Menganalisis Tren Permintaan Tipe Properti:
-    - Mengidentifikasi tipe properti yang paling diminati oleh penyewa Airbnb di Bangkok secara keseluruhan.
-    - Menilai apakah ada perbedaan signifikan dalam preferensi tipe properti di berbagai wilayah, memberikan wawasan kepada pemilik properti untuk penyesuaian strategis.
+2. Analyzing Property Type Demand Trends:
+    - Identifying the property types most favored by Airbnb renters in Bangkok overall.
+    - Assessing whether there are significant differences in property type preferences across various regions, providing insights for property owners for strategic adjustments.
 
-3. Menilai Perbedaan Harga Properti:
-    - Menganalisis perbedaan harga properti Airbnb antara wilayah Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, dan South Thonburi.
-    - Mengidentifikasi faktor-faktor yang mungkin memengaruhi variasi harga dan memberikan panduan kepada pemilik properti dalam menentukan harga yang kompetitif dan sesuai dengan pasar.
+3. Assessing Property Price Differences:
+    - Analyzing the price variations of Airbnb properties among Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, and South Thonburi.
+    - Identifying factors that may influence price variations and offering guidance to property owners in setting competitive and market-appropriate prices.
 
-4. Memberikan Rekomendasi Peningkatan Properti:
-    - Menyusun rekomendasi berdasarkan analisis untuk pemilik properti, seperti peningkatan fasilitas atau strategi pemasaran berdasarkan karakteristik wilayah dan tren permintaan.
-    - Memberikan panduan kepada pemilik properti untuk menyesuaikan harga agar lebih bersaing dan meningkatkan daya tarik properti mereka.
+4. Providing Property Enhancement Recommendations:
+    - Formulating recommendations based on analysis for property owners, such as improvements to facilities or marketing strategies based on regional characteristics and demand trends.
+    - Offering guidance to property owners on adjusting prices to enhance competitiveness and improve the attractiveness of their properties.
 
-**About Dataset**
+___
+Analysis Highlights :
+1. Number of Listings per Region:
+    - South Bangkok has a significant number of listings, indicating high popularity in the region.
+    - Central Bangkok also has a high number of listings, showing the diversity of properties in the city center.
+    - East Bangkok, North Thonburi, and South Thonburi have a lower number of listings, but are still relevant.
 
-Dataset ini berisi informasi mengenai daftar-daftar Airbnb, tuan rumah, serta beberapa metrik penting. Ada 17 kolom di dalam dataset Airbnb, yaitu:
+2. Room Type and Price:
+    - The most common room type is "Entire home/apt" followed by "Private room," with significant prices.
+    - "Hotel room" has varying prices, but is significant in some regions.
 
-- **Unnamed: 0** : index dari dataset
+3. Price Differences between Regions:
+    - Property prices in Central Bangkok tend to be higher compared to other regions.
+    - South Bangkok also has relatively high prices, indicating high demand in the region.
+    - East Bangkok, North Thonburi, and South Thonburi have more affordable prices.
 
-- **id** : Nomor identifikasi unik untuk Airbnb
+4. Property Type Demand Trends:
+    - "Entire home/apt" has a very high number of reviews, indicating high demand for this property type.
+    - "Private room" is also popular, but with a lower number of reviews.
 
-- **name** : Nama dari listing
+5. Number of Reviews in the Last 12 Months:
+    - South Bangkok has a high number of reviews in the last 12 months, indicating high activity and demand.
+    - Central Bangkok and North Bangkok also have a significant number of reviews.
 
-- **host_id** : Nomor identifikasi unik Airbnb untuk tuan rumah/pemilik
-
-- **host_name** : Nama pemilik, biasanya nama depan
-
-- **neighbourhood** : Lingkungan/wilayah tempat listing berada berdasarkan latitude dan longitude
-
-- **latitude** : Menggunakan proyeksi World Geodetic System (WGS84) untuk koordinat lintang
-
-- **longitude** : Menggunakan proyeksi World Geodetic System (WGS84) untuk koordinat bujur
-
-- **room_type** : [Seluruh rumah/apartemen | Kamar pribadi | Kamar bersama | Hotel]
-Semua rumah dikelompokkan ke dalam tiga jenis kamar berikut:
-
-    - "Entire place": Ini merujuk pada penyewaan seluruh unit rumah atau apartemen. Tamu memiliki akses eksklusif ke seluruh ruangan dan fasilitas yang ada di tempat tersebut. Tidak ada orang lain yang tinggal di unit tersebut selama masa menginap tamu.
-
-    - "Private rooms": Kamar pribadi mengacu pada penyewaan satu atau beberapa kamar di dalam suatu unit, tetapi tamu harus berbagi fasilitas umum seperti dapur, ruang tamu, atau kamar mandi dengan pemilik rumah atau mungkin tamu lainnya.
-
-    - "Shared rooms": Kamar bersama berarti tamu akan berbagi ruangan tidur atau ruangan lain dengan tamu lain yang mungkin tidak dikenal sebelumnya. Biasanya, ini adalah pilihan yang lebih ekonomis, dan fasilitas lain seperti kamar mandi dan dapur kemungkinan besar juga bersifat bersama.
-
-    - "Hotel" :mencakup kamar hotel tradisional dengan fasilitas dan layanan hotel standar, suite atau unit yang menyediakan layanan tambahan seperti layanan kamar, serta properti berdesain unik atau tematik yang menawarkan pengalaman menginap yang berbeda. 
-
-- **price** : Harga sewa listing dalam mata uang lokal (baht)
-
-- **minimum_nights** : Jumlah minimum masa sewa untuk listing permalam
-
-- **number_of_reviews** : Jumlah ulasan listing, kolom ini juga dapat diasumsikan sebagai jumlah penyewa pada sebuah listing
-
-- **last_review** : Tanggal ulasan terakhir/terbaru
-
-- **reviews_per_month** : Jumlah rata-rata ulasan yang diterima perbulan berdasarkan terakhir mendapat review
-
-- **calculated_host_listings_count** : Jumlah listing yang dimiliki oleh pemilik
-
-- **availability_365** : Ketersediaan listing dalam 365 hari ke depan
-
-- **number_of_reviews_ltm** : Jumlah ulasan yang diterima listing dalam 12 bulan terakhir, kolom ini dapat diasumsikan sebagai jumlah penyewa pada sebuah listing
+6. Room Type Based on Number of Reviews:
+    - "Entire home/apt" has a significantly higher number of reviews compared to other room types.
+____________________________________________________________________________________________________________________________________________________________________
+Explore the interactive Tableau dashboard [di sini](https://public.tableau.com/views/Capstone2_17070558558970/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+___
+Dataset : [kaggle](https://www.kaggle.com/datasets/dyahwitamara/air-bnb-listing-bangkok)
