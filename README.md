@@ -2,7 +2,7 @@
 
 Summary :
 
-Repositori ini berisi wawasan dan analisis data terkait listing properti Airbnb di Bangkok. Informasi yang disajikan mencakup berbagai aspek, termasuk distribusi listing di berbagai wilayah, daerah populer, jenis kamar, tren harga, dan ulasan pengguna. Analisis ini bertujuan untuk memberikan wawasan berharga bagi pemilik properti, bisnis, dan pemangku kepentingan dalam industri perhotelan di Bangkok.
+Airbnb Insights Properti Bangkok memberikan analisis komprehensif terhadap data listing properti Airbnb di Bangkok. Dengan fokus pada distribusi wilayah, jenis kamar, harga, dan ulasan, analisis ini membuka wawasan penting bagi pemilik properti dan pemangku kepentingan dalam industri perhotelan di kota tersebut. Temuan utama mencakup dominasi "Entire home/apt" sebagai tipe kamar paling diminati, dengan South Bangkok sebagai wilayah dengan listing terbanyak. Central Bangkok memimpin dalam harga properti, khususnya untuk "Entire home/apt" dan "Hotel room." Analisis juga mencermati tren ulasan dan memberikan rekomendasi strategis untuk meningkatkan daya tarik properti berdasarkan karakteristik wilayah dan preferensi penyewa.
 
 Link Dataset: https://drive.google.com/drive/folders/1A_KBMRFTS5Mthpp46nulso679ML4ZwTF
 
