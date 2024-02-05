@@ -17,7 +17,7 @@ Data Cleaning :
     4. Check Data Distribution    
 ___
 
-## **Pernyataan Masalah** 
+## **Problem Statement:** 
 1. Characteristics of Airbnb Properties in Each Region:
     - How do the key characteristics of Airbnb properties vary in Central Bangkok, South Bangkok, North Bangkok, North Thonburi, East Bangkok, and South Thonburi?
     - Are there specific preferences or trends in facilities or property types in each region?
