@@ -10,12 +10,10 @@ ___
 Airbnb Bangkok Property Insights provides a comprehensive analysis of Airbnb property listing data in Bangkok. With a focus on regional distribution, room types, prices, and reviews, the analysis provides important insights for property owners and stakeholders in the city's hospitality industry. Key findings include the dominance of "Entire home/apt" as the most desirable room type, with South Bangkok as the region with the most listings. Central Bangkok leads in property prices, particularly for "Entire home/apt" and "Hotel room." The analysis also looks at review trends and provides strategic recommendations to increase property appeal based on regional characteristics and tenant preferences..
 ___
 Data Cleaning :
-    1. Convert object into datetime
 
+    1. Convert object into datetime
     2. Outlier Checking
-    
     3. fill in the missing column name,last_review,reviews_per_month 
-    
     4. Check Data Distribution    
 ___
 
