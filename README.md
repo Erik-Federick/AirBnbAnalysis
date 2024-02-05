@@ -1,7 +1,7 @@
 ## **Capstone Project Summary**
 ___
 
-**Stakeholder: ** 
+**Stakeholder:** 
 The identified stakeholder is the Marketing Team.
 ___
 ## **Background**
