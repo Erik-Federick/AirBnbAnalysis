@@ -11,8 +11,11 @@ Airbnb Bangkok Property Insights provides a comprehensive analysis of Airbnb pro
 ___
 Data Cleaning :
     1. Convert object into datetime
+
     2. Outlier Checking
+    
     3. fill in the missing column name,last_review,reviews_per_month 
+    
     4. Check Data Distribution    
 ___
 
